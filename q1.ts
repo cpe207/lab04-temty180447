@@ -1,5 +1,5 @@
 function typeChecker(a, b) {
-
+  // 660610781 เพชรมงคล รุ่งรัตน์
   if (typeof a === typeof b) {
 
     if (typeof a === 'string' || typeof b === 'string') {
@@ -14,7 +14,7 @@ function typeChecker(a, b) {
   if (typeof a !== typeof b) {
     return "NOT MATCHED";
   }
-  
+
 }
 
 

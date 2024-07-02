@@ -1,4 +1,5 @@
 function arrayStringify(a) {
+    // 660610781 เพชรมงคล รุ่งรัตน์
     let result = '';
     for (let i = 0; i < a.length; i++) {
         result += a[i];

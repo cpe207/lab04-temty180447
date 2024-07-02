@@ -1,16 +1,11 @@
 function primeNumber(a) {
-  for ( let i = 2; i < a; i++){
+  // 660610781 เพชรมงคล รุ่งรัตน์
+  for ( let i = 2; i < a; i++) {
     if (a%i == 0) {
       return "NO";
     }
-    else {
-      return "YES";
-    }
-    }
-
-    if (a == 2){
-      return "YES";
-    }
+}
+return "YES";   
 }
 
 const d1 = 10;
