@@ -1,6 +1,9 @@
 function typeChecker(a, b) {
   if (typeof a === typeof b) {
-    if (typeof a || typeof b === 'string'){
+    if (typeof a  === 'string'){
+      return "I LOVE YOU";
+    }
+    else if (typeof b === 'string'){
       return "I LOVE YOU";
     }
     else{
