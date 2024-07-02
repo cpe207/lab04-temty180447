@@ -1,12 +1,14 @@
 function typeChecker(a, b) {
-  if (typeof a === typeof b && typeof a === 'string') {
-    return "I LOVE YOU";
+  if (typeof a === typeof b) {
+    if (typeof a || typeof b === 'string'){
+      return "I LOVE YOU";
+    }
+    else{
+      return a + b;
+    }
   }
-  if (typeof a !== typeof b) {
+  else {
     return "NOT MATCHED";
-  }
-  if (typeof a === typeof b && typeof a === 'number') {
-    return a + b;
   }
 }
 
