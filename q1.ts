@@ -1,8 +1,8 @@
 function typeChecker(a, b) {
-  ddd
+  //
 }
 
-//Test cases
+//Test cases 01
 const a1 = "Jack";
 const b1 = "Rose";
 const a2 = 555;
