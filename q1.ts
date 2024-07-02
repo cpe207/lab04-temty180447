@@ -1,5 +1,5 @@
 function typeChecker(a, b) {
-  /* Your code here */
+  ddd
 }
 
 //Test cases
